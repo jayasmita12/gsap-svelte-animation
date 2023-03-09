@@ -1,16 +1,16 @@
 <script>
-	import Dragable from "../lib/components/Draggable/Dragable.svelte";
-import Flip from "../lib/components/flip/Flip.svelte";
-	import Flip2 from "../lib/components/flip/Flip2.svelte";
-	import Flip3 from "../lib/components/flip/Flip3.svelte";
-	import MotionPath from "../lib/components/motionPath/MotionPath.svelte";
-	import Observer from "../lib/components/observer/Observer.svelte";
-	import SplitText from "../lib/components/textsplit/SplitText.svelte";
+	import Dragable from "$lib/components/Draggable/Dragable.svelte";
+import Flip from "$lib/components/flip/Flip.svelte";
+	import Flip2 from "$lib/components/flip/Flip2.svelte";
+	import Flip3 from "$lib/components/flip/Flip3.svelte";
+	import MotionPath from "$lib/components/motionPath/MotionPath.svelte";
+	import Observer from "$lib/components/observer/Observer.svelte";
+	import SplitText from "$lib/components/textsplit/SplitText.svelte";
 	import gsap from "gsap";
 	import {ScrollTrigger} from "$lib/script/gsap/ScrollTrigger";
 	import {ScrollSmoother} from "$lib/script/gsap/ScrollSmoother";
 	import {onMount} from "svelte"
-	import TypeWritter from "../lib/components/typewritter/TypeWritter.svelte";
+	import TypeWritter from "$lib/components/typewritter/TypeWritter.svelte";
 	
 	onMount(()=>{
 		gsap.registerPlugin(ScrollSmoother);
