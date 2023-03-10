@@ -7,10 +7,11 @@ const config = {
 	
 	kit: {
 		adapter: adapter({
-			
+			edge:false,
+			split:true
 		})
 	},
-	// preprocess: vitePreprocess()
+	preprocess: vitePreprocess()
 };
 
 export default config;
